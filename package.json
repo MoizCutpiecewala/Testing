@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-like-agent",
+  "version": "1.0.0",
+  "description": "ChatGPT-style web app with backend proxy to a free chat API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["chat", "ai", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
