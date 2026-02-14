@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT-like AI Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <h1>ChatGPT-like AI Agent</h1>
+        <p>Frontend + Backend integrated with a free AI chat API</p>
+      </header>
+
+      <section id="chatWindow" class="chat-window" aria-live="polite"></section>
+
+      <form id="chatForm" class="chat-form" autocomplete="off">
+        <input
+          id="messageInput"
+          type="text"
+          placeholder="Ask me anything..."
+          aria-label="Type your message"
+          required
+        />
+        <button type="submit" id="sendBtn">Send</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
